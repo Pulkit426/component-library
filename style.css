@@ -2,10 +2,12 @@
 
 :root{
     --primary-color: #796EE6;
+    --off-white:#E5E7EB;
 }
 
 body{
     font-family: 'Nunito', sans-serif;
+    margin:0px;
 }
 
 hr{
@@ -52,6 +54,7 @@ hr{
     background-color: var(--primary-color);
     color:white;
     padding: 0.5rem ;
+    border-bottom-left-radius: 1rem;
 }
 
 .nav-brand{
@@ -93,3 +96,27 @@ hr{
     font-weight: bold;
 
 }
+
+
+.section{
+    text-align: center;
+    padding: 2rem;
+   }
+   
+   .section-ow{
+     background-color:  var(--off-white);
+   }
+   
+   .footer{
+     background-color: var(--primary-color);
+     padding: 2rem;
+     text-align: center;
+     padding-inline-start: 0px;
+     color: white;
+     border-top-right-radius: 1rem;
+   }
+   
+   .white{
+     color:white;
+   }
+   
